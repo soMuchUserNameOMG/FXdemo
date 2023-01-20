@@ -1,0 +1,70 @@
+#username-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #767676;
+    -fx-border-radius: 5px;
+    -fx-border-width: 2px
+}
+
+/*#username-field:focused {*/
+/*    -fx-border-color: #0D90EE;*/
+/*}*/
+
+/*#username-field:focused #icon {*/
+/*    -fx-text-fill: #0D90EE;*/
+/*}*/
+
+/*#username-field:unfocused {*/
+/*    -fx-border-color: #767676;*/
+/*}*/
+
+/*#username-field:unfocused #icon {*/
+/*    -fx-text-fill: #767676;*/
+/*}*/
+
+/*#username-field:hover {*/
+/*    -fx-border-color: #0D90EE;*/
+/*}*/
+
+/*#username-field:hover #icon {*/
+/*    -fx-text-fill: #0D90EE;*/
+/*}*/
+
+/*#username-field:hover #text-field{*/
+/*    -fx-text-fill: #0D90EE;*/
+/*    -fx-prompt-text-fill: #0D90EE;*/
+/*}*/
+
+#icon {
+    -fx-text-fill: #767676;
+}
+
+#text-field {
+    -fx-background-color: transparent;
+    -fx-font-size: 16px;
+    -fx-font-family: "Microsoft YaHei UI";
+    -fx-prompt-text-fill: #767676;
+    -fx-text-fill: #1A1A1A;
+}
+
+
+#label {
+    -fx-font-family: "Microsoft YaHei UI";
+    -fx-text-fill: #767676;
+    -fx-font-size: 14px;
+}
+
+#login-button {
+    -fx-background-color: transparent;
+    -fx-border-color: #767676;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: #767676;
+    -fx-font-size: 16px;
+    -fx-font-family: "Microsoft YaHei UI";
+}
+
+#login-button:hover {
+    -fx-border-color: #0D90EE;
+    -fx-text-fill: #0D90EE;
+    -fx-cursor: hand;
+}
